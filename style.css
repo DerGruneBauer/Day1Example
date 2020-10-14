@@ -1,0 +1,72 @@
+body{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.outsideBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 800px;
+    background-color: #D47677;
+    border-radius: 10px;
+}
+
+form{
+  background-color: #f0f0f0;  
+  width: 550px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question{
+    font-size: 20px;
+    color: #7e7e7e;
+    text-align: center;
+}
+
+#password, #username{
+    margin: 10px;
+    height: 50px;
+    width: 400px;
+    color: #aaaaaa;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 20px;
+    border: lightgray solid 1px;
+}
+
+#submit{
+    height: 40px;
+    width: 130px;
+    font-size: 20px;
+    background-color: #9DD8D4;
+    color: white;
+    border: 0px;
+}
+
+#rememberBox{
+ /* display: flex;
+   justify-content: space-between;*/
+   position: absolute;
+   bottom: 235px;
+   left: 555px;
+   color: #aaaaaa;
+   font-size: 13px;
+}
+
+#remember{
+    width: 20px;
+   height: 20px;
+}
+
+label{
+    vertical-align: 30%;
+}
